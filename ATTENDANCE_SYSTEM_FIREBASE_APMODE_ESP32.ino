@@ -149,7 +149,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define BUZZER 4
 ///-----------firebase------------
 #define API_KEY "ADD_FIREBASE_API_KEY"
-#define DATABASE_URL "ADD_FIREBASE_DATABASE_URL_KEY"
+#define DATABASE_URL "ADD_FIREBASE_DATABASE_URL"
 
 FirebaseData fbdo;
 FirebaseAuth auth;
