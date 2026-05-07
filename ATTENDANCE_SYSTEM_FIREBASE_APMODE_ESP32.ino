@@ -148,8 +148,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define LED 2
 #define BUZZER 4
 ///-----------firebase------------
-#define API_KEY "AIzaSyCMpk8aAe8DSLU_IiYg5Xm5tlUMyhG59Yo"
-#define DATABASE_URL "https://realtime-attendance-syst-232ac-default-rtdb.asia-southeast1.firebasedatabase.app/"
+#define API_KEY "ADD_FIREBASE_API_KEY"
+#define DATABASE_URL "ADD_FIREBASE_DATABASE_URL_KEY"
 
 FirebaseData fbdo;
 FirebaseAuth auth;
